@@ -217,6 +217,16 @@ color:#404BBF;
   width: calc((100% - 72px) / 4);
 }
 
+.div-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #F4F4FD;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .benefits-list-title {
   font-weight: 500;
   font-size: 20px;
