@@ -413,6 +413,11 @@ color:#404BBF;
   max-width: 264px;
 }
 
+.footer-container{
+  display: flex;
+  align-items: baseline;
+}
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
