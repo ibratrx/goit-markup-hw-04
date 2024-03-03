@@ -132,55 +132,55 @@ color:#404BBF;
 
 /* =========== Hero Section styles =========== */
 
-.main-title { 
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  max-width: 496px;
-  margin-bottom: 48px;
+.hero {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ .jpg);
+  display:block ;
+  max-width: 1440px;
+  background-size: cover;
+  background-color: #2e2f42;
+  padding: 188px 0;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;}
+
+  .hero-container{
+    display: block;
+  }
+
+.main-title { 
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-}
-
-.hero {
-  background: #2e2f42;
-  padding: 188px 0;
+  display: block;
+  max-width: 496px;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1440px; 
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice\ .jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-service-block {
-  background: #4d5ae5;
-  color: #fff;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: block;
-  margin: 0 auto;
-  padding: 16px 32px;
-  gap: 10px;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  min-width: 169px;
-  height: 56px; 
-  display: block;
-  align-items: center;
+  text-align: center;
+  color: #fff;
   cursor: pointer;
+  border: none;
+  background-color:#4d5ae5;
+  display: block;
+  margin-right:auto;
+  margin-left: auto;
+  height: 56px;
+  border-radius: 4px;
+  margin-top: 48px;
+  min-width: 169px;
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-service:hover,
