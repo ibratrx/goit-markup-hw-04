@@ -303,6 +303,7 @@ color:#404BBF;
   display: flex;
   justify-content: center;
   gap: 24px;
+  fill: #F4F4FD;
 }
 .li-icon-list{
   width: 40px;
