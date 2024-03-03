@@ -144,6 +144,10 @@ color:#404BBF;
   background-repeat: no-repeat;
   background-position: center;}
 
+.header-container{
+  display: block;
+}
+
 .main-title { 
   font-weight: 700;
   font-size: 56px;
