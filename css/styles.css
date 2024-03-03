@@ -133,7 +133,7 @@ color:#404BBF;
 /* =========== Hero Section styles =========== */
 
 .hero {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ .jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
   display:block ;
   max-width: 1440px;
   background-size: cover;
