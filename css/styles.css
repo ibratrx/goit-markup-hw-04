@@ -144,10 +144,6 @@ color:#404BBF;
   background-repeat: no-repeat;
   background-position: center;}
 
-  .hero-container{
-    display: block;
-  }
-
 .main-title { 
   font-weight: 700;
   font-size: 56px;
@@ -207,8 +203,6 @@ color:#404BBF;
 .benefits {
   padding: 120px 0;
 }
-
-
 
 .benefits-list {
   display: flex;
@@ -299,12 +293,14 @@ color:#404BBF;
   text-align: center;
   color: #434455;
 }
+
 .team-icon-list{
   display: flex;
   justify-content: center;
   gap: 24px;
   fill: #F4F4FD;
 }
+
 .li-icon-list{
   width: 40px;
   height: 40px;
